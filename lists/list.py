@@ -6,6 +6,11 @@ fruits = ['mango','apple','orange','kiwi','water melon','lemon']
 # print 0 th value in fruits list
 print(fruits[0])
 
+# check a value is present in a list or not
+if "car" in fruits:
+    print('yes it is there')
+else:
+    print("no it's not available")
 # print last value in list fruits by using negetive indexing technique also use f string (formated string) syntax 
 print(f"we can access last element in python list with -1 index and it is : {fruits[-1]}")
 
