@@ -39,3 +39,14 @@ print(fruits)
 # remove all items in the list by using clear method
 fruits.clear()
 print(f"an empty list {fruits}")
+
+print('practise zone')
+
+cars = [1,2,3,4,5]
+trucks = [i*3 for i in cars ]
+print(trucks)
+
+# we can assing a range of values to an array with the  help of range funciton
+# arguments passed are, start point, end point, interval
+numerics = list(range(0,9,2))
+print(numerics)
