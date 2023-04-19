@@ -9,6 +9,11 @@ c.add('jaguar')
 print(f"original s is : {s}")
 print(f"set c after making copy and add new element is : {c}")
 
+# .set() method also helps to make copy
+
+d = set(s)
+print(f"This one is set d : {d}") 
+
 s.add('elephant')
 print(s)
 
